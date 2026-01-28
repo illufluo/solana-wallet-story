@@ -34,13 +34,14 @@ npm install
 
 ### 2. 配置环境变量
 
-创建 `.env.local` 文件（已包含在项目中）：
+创建 `.env.local` 文件：
 
 ```env
-SOLANA_RPC=https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY
-ZHIPU_API_KEY=YOUR_ZHIPU_API_KEY
-ZHIPU_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4
-ZHIPU_MODEL=glm4.7
+项目需要以下环境变量（参考 `.env.example`）：
+- `SOLANA_RPC`: Solana RPC 端点（必需）
+- `LLM_API_KEY`: AI 提供商 API Key（可选，用于 AI 叙述功能）
+- `LLM_BASE_URL`: AI API 接口地址（可选）
+- `LLM_MODEL`: 使用的模型名称（可选）
 ```
 
 ### 3. 启动开发服务器
