@@ -37,11 +37,32 @@ npm install
 创建 `.env.local` 文件：
 
 ```env
-项目需要以下环境变量（参考 `.env.example`）：
-- `SOLANA_RPC`: Solana RPC 端点（必需）
-- `LLM_API_KEY`: AI 提供商 API Key（可选，用于 AI 叙述功能）
-- `LLM_BASE_URL`: AI API 接口地址（可选）
-- `LLM_MODEL`: 使用的模型名称（可选）
+# Solana RPC Configuration
+
+# Helius:
+SOLANA_RPC=https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY
+
+
+# ============================================
+# OpenAI-Compatible LLM Configuration (可选)
+# ============================================
+# 支持任何 OpenAI 兼容的 API 提供商
+# 如果留空，AI 叙述功能将被禁用（核心功能不受影响）
+
+LLM_API_KEY=
+LLM_BASE_URL=
+LLM_MODEL=
+
+# ============================================
+# 配置示例
+# ============================================
+
+
+# 示例 : 任何其他 OpenAI 兼容的 API
+# LLM_API_KEY=your-api-key-here
+# LLM_BASE_URL=https://your-provider.com/v1
+# LLM_MODEL=your-model-name
+
 ```
 
 ### 3. 启动开发服务器
