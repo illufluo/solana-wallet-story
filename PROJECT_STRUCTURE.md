@@ -141,11 +141,6 @@ npm run build
 npm start
 ```
 
-## 🧪 测试
-
-默认测试地址：`EaPKB85tWK6Dt4vhRTR9snZtiV8jckndTRh71xo2bUDN`
-
-可以尝试其他活跃的 Solana 钱包地址。
 
 ## 📊 数据流
 
@@ -171,23 +166,3 @@ llm-narrator.ts (可选)
     ├→ TransactionTimeline
     └→ FrictionView
 ```
-
-## 🎯 适合 Hackathon 的特点
-
-1. ✅ **快速开发**: 1 天内完成
-2. ✅ **清晰代码**: 易于理解和演示
-3. ✅ **完整功能**: 可以实际使用
-4. ✅ **美观 UI**: Tailwind + 渐变色 + 响应式
-5. ✅ **容错性好**: 各种边界情况都有处理
-6. ✅ **演示友好**: 默认地址 + 清晰的视觉反馈
-
-## 🔮 未来扩展
-
-- [ ] 更详细的程序解析（使用 IDL）
-- [ ] WebSocket 实时更新
-- [ ] 钱包对比功能
-- [ ] 交易图表可视化
-- [ ] 导出报告（PDF/CSV）
-- [ ] 更智能的 LLM 提示词
-- [ ] 缓存机制
-- [ ] 多链支持
