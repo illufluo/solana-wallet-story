@@ -1,6 +1,6 @@
 # Solana Wallet Story
 
-一个用于可视化和理解 Solana 钱包链上活动的 hackathon demo 项目。
+一个用于可视化和理解 Solana 钱包链上活动的工具。
 
 ## 功能特点
 
